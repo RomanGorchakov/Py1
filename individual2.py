@@ -1,6 +1,5 @@
 import random
 k = random.randint(1, 180)
-print(k)
 list = [i for i in range(10, 100)]
 for i in list:
     if (k - 1) == list.index(i):
@@ -10,4 +9,4 @@ for i in list:
             c = ((k // 2) - 1) % 10
         else:
             c = (k // 20) + 1
-        print(a, b, c)
+        print(k, a, b, c)
